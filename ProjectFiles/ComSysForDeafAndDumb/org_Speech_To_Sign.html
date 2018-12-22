@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Speech To Sign</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="js/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Passion+One:400,700,900' rel='stylesheet' type='text/css' />
+    <!--//fonts-->
+    <script src="js/responsiveslides.min.js"></script>
+
+
+
+
+
+</head>
+<body style="background-image:url('images/background.jpg');background-repeat:no-repeat;background-position-x:center;">
+    <br /><br />
+    <div class="container">
+        <div class="learningandevaluation">
+            <h1 style="text-align:center;font-weight:bold">Talking Hands</h1>
+
+        </div><br /><br /><br />
+
+    </div>
+    <div class="container" style="background:#C7DB5E;">
+
+        <!--====================1st++++++++++++++++==============================================================================================-->
+        <div class="col-lg-6" style="float:left">
+            <br /><br /><br /><br /><br />
+            <div>
+                <div class="content">
+
+
+                    <div class="app">
+                        <!-- <h3 class="no-browser-support" style="text-align:center">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This In Google Chrome.</h3>-->
+
+
+                        <div style="margin:auto;max-width:398.5px;max-height:186px">
+                            <textarea align="center" id="note-textarea" placeholder="Enter text/HOld mic button to speek" rows="8" cols="60" autocomplete="off"></textarea><br /><br /><br />
+                        </div>
+
+                        <div align="center">
+                            <button id="start-record-btn" title="Hold and Speak" class="btn btn-primary btn-md">Mic</button>
+
+                            
+                            <button id="stop-btn" title="Show pic/Replay Video" class="btn btn-primary btn-md" onmouseup="myFunction()"> Click to Show/Replay </button>
+                            <!--<button id="pause-record-btn" title="Pause Recording" class="btn btn-primary btn-md">Pause Recognition</button>-->
+                            <div>  <p style="text-align:center" id="recording-instructions">Press and Hold <strong>Mic</strong> button.</p></div>
+                            <img />
+                            <p id="ppp" style="color:#C7DB5E;">iiiicfcf fcf c.</p>
+                        </div>
+
+                    </div>
+                    <script>
+
+                        function myFunction() {
+                            var txtbox = document.getElementById("ppp").innerHTML;
+                            var newtxtbox = txtbox.toLowerCase();
+                            if (newtxtbox == "monday") { imagee.src = "images/Monday.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "tuesday") { imagee.src = "images/Tuesday.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "thursday") { imagee.src = "images/THURSDAY.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "wednesday") { imagee.src = "images/wednesday.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "friday") { imagee.src = "images/friday.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "saturday") { imagee.src = "images/saturday.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "sunday") { imagee.src = "images/sunday.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "afternoon") { imagee.src = "images/afternoon.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "day") { imagee.src = "images/days.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "evening") { imagee.src = "images/evening.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "morning" || newtxtbox == "i get up early in the morning") { imagee.src = "images/morning.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "noon") { imagee.src = "images/noon.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "afraid") { imagee.src = "images/affraid.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "clothing" || newtxtbox == "i have to change the cloths" || newtxtbox == "i have to change the cloth") { imagee.src = "images/clothing.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "angry" || newtxtbox == "don't be angry" || newtxtbox == "i am very angry") { imagee.src = "images/angry.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "embarrassed") { imagee.src = "images/embarrassed.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "feeling" || newtxtbox == "i am feeling good") { imagee.src = "images/feeling.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "frustrated" || newtxtbox == "this is very frustrated") { imagee.src = "images/frustrated.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "funny") { imagee.src = "images/funny.PNG"; vid.src = ""; }
+
+                            else if
+                                (newtxtbox == "jealous") { imagee.src = "images/Jealous.PNG"; vid.src = ""; }
+                                //else if
+                                //    (newtxtbox == "sad") { imagee.src = "images/sad.PNG";vid.src = ""; }
+                            else if
+                               (newtxtbox == "very sad" || newtxtbox == "sad") { imagee.src = "images/sad.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "tired") { imagee.src = "images/tired.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "coat") { imagee.src = "images/coat.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "hat") { imagee.src = "images/hat.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "pants") { imagee.src = "images/pants.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "shirt") { imagee.src = "images/shirts.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "skirt") { imagee.src = "images/skirt.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "socks") { imagee.src = "images/socks.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "bathroom") { imagee.src = "images/bathroom.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "bedroom") { imagee.src = "images/bedroom.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "chair") { imagee.src = "images/chair.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "dining room") { imagee.src = "images/dinningroom.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "door") { imagee.src = "images/door.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "floor") { imagee.src = "images/floor.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "home") { imagee.src = "images/home.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "house") { imagee.src = "images/house.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "kitchen") { imagee.src = "images/kitchen.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "room") { imagee.src = "images/room.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "stair steps") { imagee.src = "images/stairssteps.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "table") { imagee.src = "images/table.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "arm") { imagee.src = "images/arm.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "blind") { imagee.src = "images/blind.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "body") { imagee.src = "images/body.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "cold fever") { imagee.src = "images/Cold(Ilness).PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "deaf") { imagee.src = "images/deaf.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "face") { imagee.src = "images/face.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "feet") { imagee.src = "images/feet.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "hairs") { imagee.src = "images/hairs.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "hands") { imagee.src = "images/.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "headache") { imagee.src = "images/headache.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "lips" || newtxtbox == "nose" || newtxtbox == "tounge" || newtxtbox == "ear" || newtxtbox == "teeth") { imagee.src = "images/Lips,Toungh etc.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "mouth") { imagee.src = "images/mouth.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "pregnant") { imagee.src = "images/pregnant.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "sick") { imagee.src = "images/sick.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "autumn") { imagee.src = "images/autumn.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "cloud") { imagee.src = "images/cloud.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "moon") { imagee.src = "images/moon.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "rain") { imagee.src = "images/rain.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "snow") { imagee.src = "images/snow.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "spring") { imagee.src = "images/spring.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "strom") { imagee.src = "images/strom.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "summer") { imagee.src = "images/summer.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "sun") { imagee.src = "images/sun.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "weather") { imagee.src = "images/weather.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "wind") { imagee.src = "images/wind.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "winter") { imagee.src = "images/winter.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "how many") { imagee.src = "images/How Many.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "how much") { imagee.src = "images/How Much.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "how") { imagee.src = "images/How.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "question") { imagee.src = "images/question.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "what") { imagee.src = "images/what.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "when") { imagee.src = "images/when.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "where") { imagee.src = "images/where.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "which") { imagee.src = "images/which.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "who") { imagee.src = "images/who.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "why") { imagee.src = "images/why.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "aunt") { imagee.src = "images/aunt.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "baby") { imagee.src = "images/baby.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "boy") { imagee.src = "images/boy.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "brother") { imagee.src = "images/brother.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "child") { imagee.src = "images/child.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "daughter") { imagee.src = "images/daughter.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "family") { imagee.src = "images/family.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "father") { imagee.src = "images/Father.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "friend") { imagee.src = "images/friend.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "girl") { imagee.src = "images/girl.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "grandfather") { imagee.src = "images/grandafather.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "grandmother") { imagee.src = "images/grandmother.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "husband") { imagee.src = "images/husband.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "mother") { imagee.src = "images/mother.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "parents") { imagee.src = "images/parents.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "sister") { imagee.src = "images/sister.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "son") { imagee.src = "images/son.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "uncle") { imagee.src = "images/uncle.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "wife") { imagee.src = "images/wife.PNG"; vid.src = ""; }
+
+                            else if
+                                (newtxtbox == "black") { imagee.src = "images/black.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "blue") { imagee.src = "images/blue.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "brown") { imagee.src = "images/brown.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "gray") { imagee.src = "images/gray.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "green") { imagee.src = "images/green.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "orange") { imagee.src = "images/orange.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "pink") { imagee.src = "images/pink.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "purple") { imagee.src = "images/purple.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "red") { imagee.src = "images/red.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "tan") { imagee.src = "images/tan.PNG"; vid.src = ""; }
+                            else if
+                                (newtxtbox == "are you a student") { imagee.src = ""; vid.src = "images/are you a student_x264.MP4"; }
+                            else if
+                                (newtxtbox == "be careful") { imagee.src = ""; vid.src = "images/be careful_x264.MP4"; }
+                            else if
+                                (newtxtbox == "drive safely") { imagee.src = ""; vid.src = "images/drive safely_x264.MP4"; }
+                            else if
+                                (newtxtbox == "excuse me") { imagee.src = ""; vid.src = "images/excuseme_x264.MP4"; }
+                            else if
+                                (newtxtbox == "good afternoon") { imagee.src = ""; vid.src = "images/good afternoon_x264.MP4"; }
+                            else if
+                                (newtxtbox == "good night") { imagee.src = ""; vid.src = "images/good night_x264.MP4"; }
+                            else if
+                                (newtxtbox == "may i help you" || newtxtbox == "can i help you") { imagee.src = ""; vid.src = "images/may i help you_x264.MP4"; }//.
+                            else if
+                                (newtxtbox == "nice to meet you") { imagee.src = ""; vid.src = "images/nice to meet you_x264.MP4"; }//.
+                            else if
+                                (newtxtbox == "please") { imagee.src = ""; vid.src = "images/please_x264.MP4"; }//
+                            else if
+                                (newtxtbox == "sorry" || newtxtbox == "i am sorry") { imagee.src = ""; vid.src = "images/sorry_x264.MP4"; }//
+                            else if
+                                (newtxtbox == "what is your name") { imagee.src = ""; vid.src = "images/what is your name_x264.MP4"; }//
+                            else if
+                                (newtxtbox == "what time is it") { imagee.src = ""; vid.src = "images/what time is it_x264.MP4"; }//
+
+                            else if
+                                (newtxtbox == "i live here") { imagee.src = ""; vid.src = "images/i live here_x264_001.MP4"; }
+                            else if
+                                (newtxtbox == "what are you saying") { imagee.src = ""; vid.src = "images/what are you saying_x264.MP4"; }
+                            else if
+                                (newtxtbox == "where do you go to school" || newtxtbox == "where do you go to school" || newtxtbox == "where is your school") { imagee.src = ""; vid.src = "images/where do you got school_x264.MP4"; }
+                            else if
+                                (newtxtbox == "where do you live") { imagee.src = ""; vid.src = "images/where do you live_x264.MP4"; }
+                            else if
+                                (newtxtbox == "where do you work") { imagee.src = ""; vid.src = "images/where do you work_x264.MP4"; }
+                         else { imagee.src = "images/for_else.png"; vid.src = ""; }
+
+
+                        }
+
+                    </script>
+
+
+                </div>
+
+
+                <script src="for_sign/script1.js"></script>
+
+            </div>
+        </div>
+        <!--======================================1stend================================== =====================================================-->
+       
+
+
+
+        <div class="col-lg-6">
+
+            <br /><br />
+            <br />
+            <!-- <img class="img-responsive" id="imagee" src="onbulb.png" style="margin:auto;border:dashed cyan 5px;width:45%;height:45%;margin-top:50px;float:left" />-->
+            <div style="max-width:540px;float:left;max-height:100px;margin:auto;"> <img src="images/empty.png" class="img-responsive" id="imagee" /></div>
+
+            <!--<div style="border:dashed yellow 5px;margin:auto;margin-top:50px;float:left"> <video controls autoplay muted id="vid" >
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video></div>-->
+            <div style="max-width:540px;max-height:300px;margin:auto;">
+                <video class="img-responsive" autoplay id="vid" muted />
+            </div>
+
+
+        </div>
+
+       
+
+
+    </div>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\bin\DevelopmentWithADot.AspNetSpeechRecognition.Test.dll.config
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\bin\DevelopmentWithADot.AspNetSpeechRecognition.Test.dll
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\bin\DevelopmentWithADot.AspNetSpeechRecognition.Test.pdb
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\bin\DevelopmentWithADot.AspNetSpeechRecognition.dll
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\bin\Microsoft.Speech.dll
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\bin\DevelopmentWithADot.AspNetSpeechRecognition.pdb
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\obj\Debug\DevelopmentWithADot.AspNetSpeechRecognition.Test.csprojResolveAssemblyReference.cache
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\obj\Debug\DevelopmentWithADot.AspNetSpeechRecognition.Test.dll
+C:\Users\bilal\Desktop\DevelopmentWithADot.AspNetSpeechRecognition-master\DevelopmentWithADot.AspNetSpeechRecognition.Test\obj\Debug\DevelopmentWithADot.AspNetSpeechRecognition.Test.pdb
